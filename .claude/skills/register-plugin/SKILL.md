@@ -42,5 +42,5 @@ You are adding a plugin to the marketplace registry at `this marketplace reposit
 
 7. **Confirm** registration and show the install command:
    ```
-   /plugin install <plugin-name>@your-marketplace
+   /plugin install <plugin-name>@tool1-marketplace
    ```

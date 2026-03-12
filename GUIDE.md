@@ -130,8 +130,8 @@ Fix any reported issues before proceeding.
 Install your plugin from the local marketplace:
 
 ```bash
-/plugin marketplace add your-marketplace ./path/to/.claude-plugin/marketplace.json
-/plugin install hook-lint-on-save@your-marketplace
+/plugin marketplace add tool1-marketplace ./path/to/.claude-plugin/marketplace.json
+/plugin install hook-lint-on-save@tool1-marketplace
 ```
 
 Restart Claude Code and verify the plugin works:
@@ -194,7 +194,7 @@ git push
 ### Users update by reinstalling
 
 ```bash
-/plugin install hook-lint-on-save@your-marketplace
+/plugin install hook-lint-on-save@tool1-marketplace
 ```
 
 Their settings in `.plugin-config/` are preserved automatically through the config migration system.

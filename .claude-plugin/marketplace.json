@@ -1,24 +1,31 @@
 {
-  "name": "your-marketplace",
+  "name": "tool1-marketplace",
   "owner": {
-    "name": "your-name"
+    "name": "danieletulone"
   },
   "metadata": {
     "description": "Claude Code plugin marketplace",
-    "version": "1.0.0",
-    "homepage": "https://github.com/your-name/your-marketplace"
+    "version": "1.0.1",
+    "homepage": "https://github.com/danieletulone/tool1-marketplace"
   },
   "plugins": [
     {
-      "name": "example",
-      "source": "./plugins/example",
-      "description": "A brief description of what this plugin does",
+      "name": "spec-docs",
+      "source": "./plugins/spec-docs",
+      "description": "Spec-driven development plugin with skills for generating structured documentation",
       "version": "1.0.0",
-      "author": { "name": "Your Name" },
-      "category": "hooks",
-      "homepage": "https://github.com/your-name/your-marketplace",
-      "keywords": ["claude-code", "plugin"]
+      "author": {
+        "name": "danieletulone"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/danieletulone/tool1-marketplace",
+      "keywords": [
+        "spec",
+        "requirements",
+        "docs",
+        "workflow"
+      ]
     }
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

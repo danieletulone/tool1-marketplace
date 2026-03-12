@@ -39,7 +39,7 @@ You are scaffolding a new Claude Code plugin for the marketplace at `this market
      "version": "1.0.0",
      "author": { "name": "<author>" },
      "category": "<category>",
-     "homepage": "https://github.com/your-name/your-marketplace",
+     "homepage": "https://github.com/danieletulone/tool1-marketplace",
      "keywords": [<keywords>]
    }
    ```
@@ -52,7 +52,7 @@ You are scaffolding a new Claude Code plugin for the marketplace at `this market
    - Implement the `run()` function in `scripts/main.js`
    - Add plugin-specific config defaults in `scripts/init-config.js`
    - Test with `/plugin validate`
-   - Install with `/plugin install <plugin-name>@your-marketplace`
+   - Install with `/plugin install <plugin-name>@tool1-marketplace`
 
 ## Important Rules
 
