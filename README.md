@@ -13,7 +13,11 @@ A Claude Code plugin marketplace. Build, publish, and install plugins that autom
 ### Install a plugin
 
 ```bash
-/plugin install <plugin-name>@tool1-marketplace
+/plugin install gstack@tool1-marketplace
+```
+
+```bash
+/plugin install spec-docs@tool1-marketplace
 ```
 
 ### Restart Claude Code
@@ -27,6 +31,7 @@ claude
 <!-- PLUGINS:START -->
 | Plugin | Description | Version | Keywords |
 | ------ | ----------- | ------- | -------- |
+| [`gstack`](plugins/gstack/) | Six opinionated workflow skills for Claude Code: plan review (CEO + eng), code review, shipping, browser automation, and retrospectives | 1.0.0 | `claude-code`, `plugin`, `workflow`, `review`, `ship`, `browse`, `retro`, `plan`, `automation` |
 | [`spec-docs`](plugins/spec-docs/) | Spec-driven development plugin with skills for generating structured documentation | 1.0.0 | `claude-code`, `plugin`, `spec`, `requirements`, `docs`, `workflow` |
 <!-- PLUGINS:END -->
 
