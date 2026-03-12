@@ -1,0 +1,22 @@
+# Plugin state directories
+plugins/*/.state/
+
+# Plugin configuration (project-specific)
+.plugin-config/
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+

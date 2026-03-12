@@ -1,0 +1,16 @@
+{
+  "name": "my-plugin-name",
+  "version": "1.0.0",
+  "description": "A brief description of what this plugin does",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/your-username/your-repo"
+  },
+  "homepage": "https://github.com/your-username/your-repo",
+  "repository": "https://github.com/your-username/your-repo.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin"
+  ]
+}
