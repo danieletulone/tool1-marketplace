@@ -25,6 +25,26 @@
         "docs",
         "workflow"
       ]
+    },
+    {
+      "name": "gstack",
+      "source": "./plugins/gstack",
+      "description": "Six opinionated workflow skills for Claude Code: plan review (CEO + eng), code review, shipping, browser automation, and retrospectives",
+      "version": "1.0.0",
+      "author": {
+        "name": "danieletulone"
+      },
+      "category": "workflow",
+      "homepage": "https://github.com/garrytan/gstack",
+      "keywords": [
+        "workflow",
+        "review",
+        "ship",
+        "browse",
+        "retro",
+        "plan",
+        "automation"
+      ]
     }
   ],
   "version": "1.0.1"

@@ -1,0 +1,7 @@
+{
+  "description": "Six opinionated workflow skills for Claude Code: plan review (CEO + eng), code review, shipping, browser automation, and retrospectives",
+  "version": "1.0.0",
+  "author": "danieletulone",
+  "lastUpdated": "2026-03-12",
+  "hooks": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "gstack",
+  "version": "0.0.2",
+  "description": "Garry's Stack — Claude Code skills + fast headless browser. One repo, one install, entire AI engineering workflow.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "browse": "./skills/browse/dist/browse"
+  },
+  "scripts": {
+    "build": "bun build --compile skills/browse/src/cli.ts --outfile skills/browse/dist/browse",
+    "dev": "bun run skills/browse/src/cli.ts",
+    "server": "bun run skills/browse/src/server.ts",
+    "test": "bun test",
+    "start": "bun run skills/browse/src/server.ts",
+    "install-browser": "bunx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "diff": "^7.0.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "playwright",
+    "headless",
+    "cli",
+    "claude",
+    "ai-agent",
+    "devtools"
+  ]
+}

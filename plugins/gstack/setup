@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# gstack plugin setup — install Playwright browser + build browse binary
+set -e
+
+PLUGIN_DIR="$(cd "$(dirname "$0")" && pwd)"
+BROWSE_BIN="$PLUGIN_DIR/skills/browse/dist/browse"
+
+# 0. Check for bun
+if ! command -v bun >/dev/null 2>&1; then
+  echo "gstack setup requires bun. Install it with:"
+  echo "  curl -fsSL https://bun.sh/install | bash"
+  exit 1
+fi
+
+# 1. Install dependencies
+echo "Installing dependencies..."
+(cd "$PLUGIN_DIR" && bun install)
+
+# 2. Install Playwright Chromium browser
+# playwright install is idempotent — skips if already downloaded
+echo "Ensuring Playwright Chromium is installed..."
+(cd "$PLUGIN_DIR" && bunx playwright install chromium)
+
+# 3. Build browse binary if needed
+NEEDS_BUILD=0
+if [ ! -x "$BROWSE_BIN" ]; then
+  NEEDS_BUILD=1
+elif [ -n "$(find "$PLUGIN_DIR/skills/browse/src" -type f -newer "$BROWSE_BIN" -print -quit 2>/dev/null)" ]; then
+  NEEDS_BUILD=1
+elif [ "$PLUGIN_DIR/package.json" -nt "$BROWSE_BIN" ]; then
+  NEEDS_BUILD=1
+elif [ -f "$PLUGIN_DIR/bun.lock" ] && [ "$PLUGIN_DIR/bun.lock" -nt "$BROWSE_BIN" ]; then
+  NEEDS_BUILD=1
+fi
+
+if [ "$NEEDS_BUILD" -eq 1 ]; then
+  echo "Building browse binary..."
+  (cd "$PLUGIN_DIR" && bun run build)
+fi
+
+if [ ! -x "$BROWSE_BIN" ]; then
+  echo "gstack setup failed: browse binary missing at $BROWSE_BIN" >&2
+  exit 1
+fi
+
+echo "gstack ready."
+echo "  browse binary: $BROWSE_BIN"
+echo "  plugin dir: $PLUGIN_DIR"
