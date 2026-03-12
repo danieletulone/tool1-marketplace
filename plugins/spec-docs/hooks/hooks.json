@@ -1,0 +1,7 @@
+{
+  "description": "Spec-driven development plugin with skills for generating structured documentation",
+  "version": "1.0.0",
+  "author": "danieletulone",
+  "lastUpdated": "2026-03-12",
+  "hooks": {}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "spec-docs",
+  "version": "1.0.0",
+  "description": "Spec-driven development plugin with skills for generating structured documentation",
+  "author": {
+    "name": "danieletulone",
+    "url": "https://github.com/danieletulone/tool1-marketplace"
+  },
+  "homepage": "https://github.com/danieletulone/tool1-marketplace",
+  "repository": "https://github.com/danieletulone/tool1-marketplace.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "spec",
+    "requirements",
+    "docs",
+    "workflow"
+  ]
+}
