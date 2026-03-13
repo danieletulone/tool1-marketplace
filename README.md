@@ -28,6 +28,10 @@ A Claude Code plugin marketplace. Build, publish, and install plugins that autom
 /plugin install ai-act@tool1-marketplace
 ```
 
+```bash
+/plugin install owasp@tool1-marketplace
+```
+
 ### Restart Claude Code
 
 ```bash
@@ -42,6 +46,7 @@ claude
 | [`ai-act`](plugins/ai-act/) | Analyse any codebase for EU AI Act compliance gaps and risks | 1.0.0 | `ai-act`, `compliance`, `eu-regulation`, `audit`, `artificial-intelligence` |
 | [`gdpr`](plugins/gdpr/) | Analyse any codebase for GDPR compliance gaps and risks | 1.0.0 | `gdpr`, `compliance`, `privacy`, `audit`, `data-protection` |
 | [`gstack`](plugins/gstack/) | Six opinionated workflow skills for Claude Code: plan review (CEO + eng), code review, shipping, browser automation, and retrospectives | 1.0.0 | `workflow`, `review`, `ship`, `browse`, `retro`, `plan`, `automation` |
+| [`owasp`](plugins/owasp/) | Analyse any codebase for OWASP Top 10 2025 security risks and vulnerabilities | 1.0.0 | `owasp`, `security`, `audit`, `vulnerabilities`, `web-application` |
 | [`spec-docs`](plugins/spec-docs/) | Spec-driven development plugin with skills for generating structured documentation | 1.0.0 | `spec`, `requirements`, `docs`, `workflow` |
 <!-- PLUGINS:END -->
 

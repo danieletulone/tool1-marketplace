@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Claude Code plugin marketplace",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://github.com/danieletulone/tool1-marketplace"
   },
   "plugins": [
@@ -65,7 +65,17 @@
       "category": "compliance",
       "homepage": "https://github.com/danieletulone/tool1-marketplace",
       "keywords": ["ai-act", "compliance", "eu-regulation", "audit", "artificial-intelligence"]
+    },
+    {
+      "name": "owasp",
+      "source": "./plugins/owasp",
+      "description": "Analyse any codebase for OWASP Top 10 2025 security risks and vulnerabilities",
+      "version": "1.0.0",
+      "author": { "name": "danieletulone" },
+      "category": "compliance",
+      "homepage": "https://github.com/danieletulone/tool1-marketplace",
+      "keywords": ["owasp", "security", "audit", "vulnerabilities", "web-application"]
     }
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

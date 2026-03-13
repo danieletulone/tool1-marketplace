@@ -1,0 +1,21 @@
+{
+  "name": "owasp",
+  "version": "1.0.0",
+  "description": "Analyse any codebase for OWASP Top 10 2025 security risks and vulnerabilities",
+  "author": {
+    "name": "danieletulone",
+    "url": "https://github.com/danieletulone/tool1-marketplace"
+  },
+  "homepage": "https://github.com/danieletulone/tool1-marketplace",
+  "repository": "https://github.com/danieletulone/tool1-marketplace.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "owasp",
+    "security",
+    "audit",
+    "vulnerabilities",
+    "web-application"
+  ]
+}
