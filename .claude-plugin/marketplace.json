@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Claude Code plugin marketplace",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://github.com/danieletulone/tool1-marketplace"
   },
   "plugins": [
@@ -45,7 +45,17 @@
         "plan",
         "automation"
       ]
+    },
+    {
+      "name": "gdpr",
+      "source": "./plugins/gdpr",
+      "description": "Analyse any codebase for GDPR compliance gaps and risks",
+      "version": "1.0.0",
+      "author": { "name": "danieletulone" },
+      "category": "compliance",
+      "homepage": "https://github.com/danieletulone/tool1-marketplace",
+      "keywords": ["gdpr", "compliance", "privacy", "audit", "data-protection"]
     }
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

@@ -1,0 +1,21 @@
+{
+  "name": "gdpr",
+  "version": "1.0.0",
+  "description": "Analyse any codebase for GDPR compliance gaps and risks",
+  "author": {
+    "name": "danieletulone",
+    "url": "https://github.com/danieletulone/tool1-marketplace"
+  },
+  "homepage": "https://github.com/danieletulone/tool1-marketplace",
+  "repository": "https://github.com/danieletulone/tool1-marketplace.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "gdpr",
+    "compliance",
+    "privacy",
+    "audit",
+    "data-protection"
+  ]
+}
