@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Claude Code plugin marketplace",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://github.com/danieletulone/tool1-marketplace"
   },
   "plugins": [
@@ -55,7 +55,17 @@
       "category": "compliance",
       "homepage": "https://github.com/danieletulone/tool1-marketplace",
       "keywords": ["gdpr", "compliance", "privacy", "audit", "data-protection"]
+    },
+    {
+      "name": "ai-act",
+      "source": "./plugins/ai-act",
+      "description": "Analyse any codebase for EU AI Act compliance gaps and risks",
+      "version": "1.0.0",
+      "author": { "name": "danieletulone" },
+      "category": "compliance",
+      "homepage": "https://github.com/danieletulone/tool1-marketplace",
+      "keywords": ["ai-act", "compliance", "eu-regulation", "audit", "artificial-intelligence"]
     }
   ],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
